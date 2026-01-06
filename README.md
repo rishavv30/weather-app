@@ -6,7 +6,7 @@ The app features a **clean UI**, **Dark/Light mode toggle**, and is fully deploy
 ---
 
 ## 🚀 Live Demo
-🔗 https://rishavv30.github.io/weather-app/
+http://127.0.0.1:5500/weatherApi/index.html
 
 ---
 
