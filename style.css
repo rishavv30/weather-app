@@ -1,0 +1,78 @@
+:root {
+    --bg-gradient: linear-gradient(135deg, #1d2671, #c33764);
+    --card-bg: rgba(255, 255, 255, 0.15);
+    --text-color: #ffffff;
+    --btn-bg: #ffcc70;
+}
+
+body.light {
+    --bg-gradient: linear-gradient(135deg, #e0eafc, #cfdef3);
+    --card-bg: rgba(255, 255, 255, 0.9);
+    --text-color: #222;
+    --btn-bg: #4facfe;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: var(--bg-gradient);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.5s ease;
+}
+
+.app-container {
+    width: 350px;
+    padding: 25px;
+    background: var(--card-bg);
+    backdrop-filter: blur(12px);
+    border-radius: 18px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    color: var(--text-color);
+    text-align: center;
+    position: relative;
+    transition: 0.3s;
+}
+
+.theme-toggle {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.search-box button {
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: none;
+    background: var(--btn-bg);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.weather-card p {
+    font-size: 48px;
+    font-weight: 600;
+}
