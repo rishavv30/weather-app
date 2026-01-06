@@ -52,9 +52,8 @@ The app features a **clean UI**, **Dark/Light mode toggle**, and is fully deploy
 ---
 
 ## 📸 Preview
-_Add a screenshot here (optional but recommended)_
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/935632f9-f43e-4118-aa63-fc0ef84bee6b" />
 
----
 
 ## 👨‍💻 Author
 **Rishav Singh**  
